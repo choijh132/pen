@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+/*--cartForm.jsp start--*/
+
+/*중심*/
+.wrap{padding-top: 150px; position: relative; width: 60%; margin: 0 auto;}
+
+/*장바구니 제목*/
+.basket_title{float: left; width: 60%; background: #0080ff; }
+.basket_title p{text-align: center; font-size: 20px;}
+
+/*장바구니 표*/
+.basket_main{float: left; width: 60%; border: 1px;} 
+
+.basket_main table{width: 100%; background: ivory; border: 1px solid gray; 
+border-left: none; border-right: none; }
+
+.basket_main table th{background: #80ffff; border: 1px solid gray; }
+.basket_main table th:first-child{border-left: none;}
+.basket_main table th:last-child{border-right: none;}
+
+.basket_main table td{border: 1px solid gray; padding-left: 2px;}
+.basket_main table td:first-child{border-left: none;}
+.basket_main table td:last-child{ border-right: none;}
+
+
+
+/*총합계 영역*/
+.payment_fixed{position: absolute; right: 0; float: right; width: 25%; }
+
+/*총 결제금액*/
+.all_cost{border-bottom: 3px dotted; padding-bottom: 3px; } 
+.all_cost p{text-align: left; font-size: 20px; padding-left: 20px;}
+
+
+/*상품금액*/
+.cost_product{width: 100%;}
+
+.cost_product_p{width: 40%; float: left; }
+.cost_product_won{width: 60%; float: right; }
+.cost_product_won p{float: right;}
+
+.cost_delivery{width: 100%; }
+
+.cost_delivery_p{width: 40%; float: left;  }
+.cost_delivery_won{width: 60%; float: right;}
+.cost_delivery_won p{float: right;}
+
+.cost_all{width: 100%;}
+
+.cost_all_p{width: 40%; float: left; font-size: 16px; }
+.cost_all_won{width: 60%; float: right; }
+.cost_all_won p{float: right;}
+
+.pay_button{width: 100%;}
+
+.pay_request{width: 65%; float: left; }
+.pay_cancel{width: 35%; float: right; }
+
+
+/*--cartForm.jsp end--*/
+
+
+
+/*--orderForm.jsp start--*/
+
+.wrap_2{padding-top: 50px; position: relative; width: 60%; margin: 0 auto; }
+
+/*주문서 제목*/
+.orderlist_title{float: left; width: 60%; background: pink; }
+.orderlist_title p{text-align: center; font-size: 20px;}
+
+/*주문서 표*/
+.orderlist_main{margin: 0 auto; border: 1px;} 
+.client{float: left; width: 60%; margin: 0 auto; border: 1px;} 
+
+/*주문서 표 상세*/
+.client_info{margin-bottom: 30px; }
+.client_title{width: 100%; background: #ddd; margin-bottom: 10px;}
+.client_title p{font-size: 18px; padding-left: 5px;}
+.client_name_and_phone{width: 100%;}
+.client_name{width: 50%; float: left;}
+.client_phone{width: 50%; float: right; }
+.client_email{width: 100%; }
+
+/*배송지 상세*/
+.destination_info{width: 100%; margin-top: 20px; margin-bottom: 30px;}
+.destination_title{width: 100%; background: #eee; margin-bottom: 10px;}
+.destination_title p{font-size: 18px; padding-left: 5px;}
+.receiver_name_and_phone
+.receiver_name{width: 50%; float: left; }
+.receiver_phone{width: 50%; float: right;}
+.address
+
+/*배송 메시지 상세*/
+.message{width: 100%; margin-top: 20px; background: gray;}
+
+/*결제수단 상세*/
+.product_info{width: 100%; margin-top: 20px;}
+.product_info_title{width: 100%; background: #ddd; margin-bottom: 10px;}
+.product_info_title p{font-size: 18px; padding-left: 5px;}
+
+.product_info table{width: 100%; background: ivory; border: 1px solid gray;
+border-left: none; border-right: none; }
+
+.product_info table th{background: #80ffff; border: 1px solid gray;}
+.product_info table th:first-child{border-left: none; }
+.product_info table th:last-child{border-right: none; }
+
+.product_info table td{border: 1px solid gray;}
+.product_info table td:first-child{border-left: none; }
+.product_info table td:last-child{border-right: none; }
+
+
+/*--orderForm.jsp end--*/
+
+
+
+
+/*--postalCode.jsp start--*/
+
+
+
+/***************************************************/
+/* 이미지 */
+/***************************************************/
+
+
+/***************************************************/
+/* 배경색상 */
+/***************************************************/
+/* 바탕 배경색상 */
+.pop-address-search { background-color:#ECECEC; }
+
+/* 검색창 색상 */
+.pop-address-search .pop-address-search-inner .wrap input { background-color:#FFFFFF; }
+
+/* 검색버튼 색상 */
+.pop-address-search .pop-address-search-inner .wrap { background-color:#FFFFFF; }
+
+/* 본문 배경색(홀수) */
+.pop-address-search .pop-address-search-inner .result table.data-col tbody tr:nth-child(odd) td {background:#FFFFFF}
+
+/* 본문 배경색(짝수) */
+.pop-address-search .pop-address-search-inner .result table.data-col tbody tr:nth-child(even) td {background:#FFFFFF}
+
+/***************************************************/
+/* 글자색상 */
+/***************************************************/
+/* 검색 결과  글자색상 */
+table.data-col  { color:#FFFFFF; }
+table.data-col tbody tr td.subj { color:#333333; }
+
+/* 검색창 글자 색상 */
+.pop-address-search .pop-address-search-inner .wrap input { color:#222222; }
+
+
+/*--postalCode.jsp end--*/
+
+
+
+
+
+/*--orderCompleteForm.jsp start--*/
+
+#wrap_3{width: 60%; margin: 0 auto;}
+
+.content{margin-top: 40%;}
+
+.ordercomplete_title{margin: 0 auto; font-size: 40px;}
+.ordercomplete_title p{text-align: center;}
+
+.ordercomplete_subtitle{margin: 0 auto;}
+.ordercomplete_subtitle p{text-align: center;}
+
+.buttons{margin: 0 auto;}
+
+/*--orderCompleteForm.jsp end--*/
+
+
+
+
+
